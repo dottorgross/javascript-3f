@@ -1,4 +1,4 @@
-// scrivi una funzione saluta
+// scrivi una funzione saluta(nome,numero)
 // che prende due argomenti:
 // - nome
 // - numero
@@ -8,3 +8,11 @@
 // Ciao Paolo
 // Ciao Paolo
 // suggerimento: mette un ciclo for dentro la funzione
+
+function saluta(nome,numero) {
+    for(let i=1; i<=numero; i++) {
+        console.log("Ciao " + nome)
+    }
+}
+
+saluta("Paolo", 1000000)
